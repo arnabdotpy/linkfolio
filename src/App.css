@@ -1,6 +1,9 @@
 body {
   /* background-image: url("https://i.ytimg.com/vi/eA5gcmDGJms/maxresdefault.jpg"); */
-  background-image: url("https://img.freepik.com/free-photo/light-leak-effect-black-wallpaper_53876-95989.jpg");
+  /* background-image: url("https://img.freepik.com/free-photo/light-leak-effect-black-wallpaper_53876-95989.jpg"); */
+  background-image: url("https://t4.ftcdn.net/jpg/03/72/85/69/360_F_372856935_BnPaH0i20GCeuscEWVQLC9CNfZSy29N3.jpg");
+  /* background-image: url("https://img.freepik.com/free-photo/bright-light-black-background_23-2148132722.jpg"); */
+  /* background-image: url("https://freestockfootagearchive.com/wp-content/uploads/2023/01/Blue-Light-Leak-Overlay-Transition-Cosmic-Clash.png"); */
   background-size: cover;
   overflow-y: hidden;
 }
@@ -20,7 +23,7 @@ body {
     color: #F2F4FE;
     font-family: 'Karla', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 22px;
   }
   
   .card-container {
@@ -32,6 +35,5 @@ body {
     justify-content: center; 
     align-items: center; 
   }
-  
   /* Your card component styles */
   

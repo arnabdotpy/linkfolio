@@ -1,25 +1,26 @@
 import React from 'react';
 import './App.css';
-import Card from './card/card';
+import Card from './components/card/card';
+import Icons from './components/icons/icons';
+import Header from './components/header/header';
 
 const App = () => {
-  const cardData = [ 
-    {title: 'Github', url: 'https://www.github.com/arnabdotpy'},
-    {title: 'LinkedIn', url: 'https://www.linkedin.com/in/arnabroy25/'},
+  const cardData = [
+    { title: 'Github', url: 'https://www.github.com/arnabdotpy' },
+    { title: 'LinkedIn', url: 'https://www.linkedin.com/in/arnabroy25/' },
     // {title: 'Instagram', url: 'https://www.instagram.com/arnabroy__'},
     // {title: 'Twitter', url: 'https://www.x.com/ArnabRoy25'},
   ];
 
   return (
     <div className="app">
-      <div>
-        <p className='nameText'>Arnab Roy</p>
-      </div>
+      <Header />
       <div className="card-container">
         {cardData.map((card, index) => (
           <Card key={index} {...card} />
         ))}
       </div>
+      <Icons />
     </div>
   );
 };

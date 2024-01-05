@@ -1,6 +1,6 @@
 .card {
   width: 300px;
-  height: 50px; /* Adjust the height as needed */
+  height: 45px; /* Adjust the height as needed */
   background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
   border-radius: 8px;
   padding: 12px;
@@ -33,7 +33,9 @@
 }
 
 .card:hover {
-  transform: translateY(-3px);
+  /* transform: translateY(-3px); */
+  scale: 1.03;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Add other styles as needed */
