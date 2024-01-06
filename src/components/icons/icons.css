@@ -1,0 +1,17 @@
+.socialIconWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.socialIcon {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}

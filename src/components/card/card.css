@@ -23,8 +23,10 @@
 }
 
 .card p {
-  font-family: 'Karla', sans-serif;
-  font-weight: 500;
+  /* font-family: 'Karla', sans-serif; */
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .card a {

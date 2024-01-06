@@ -19,3 +19,8 @@
   align-self: center;
   margin-top: 5px;
 }
+
+.nameText {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+}

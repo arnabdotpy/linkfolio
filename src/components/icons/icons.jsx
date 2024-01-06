@@ -1,5 +1,6 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import './icons.css';
 
 const Icons = () => {
   // Define your social media URLs here
@@ -20,29 +21,18 @@ const Icons = () => {
   ];
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        maxWidth: '300px',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
+    <div className='socialIconWrapper'>
       {socialMediaLinks.map((link, index) => (
         <SocialIcon
           key={index}
           url={link.url}
           network={link.network}
-          style={{
-            width: '40px',
-            height: '40px',
-            // margin: '0.5rem',
-          }}
           target="_blank"
           rel="noopener noreferrer"
           bgColor="transparent"
           fgColor='#F2F4FE'
+          className='socialIcon'
+          style={{ height: 40, width: 40 }}
         />
       ))}
     </div>
