@@ -6,8 +6,8 @@ import Header from './components/header/header';
 
 const App = () => {
   const cardData = [
-    { title: 'Github', url: 'https://www.github.com/arnabdotpy' },
     { title: 'LinkedIn', url: 'https://www.linkedin.com/in/arnabroy25/' },
+    { title: 'Github', url: 'https://www.github.com/arnabdotpy' },
     // {title: 'Instagram', url: 'https://www.instagram.com/arnabroy__'},
     // {title: 'Twitter', url: 'https://www.x.com/ArnabRoy25'},
   ];

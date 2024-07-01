@@ -5,7 +5,6 @@ import './icons.css';
 const Icons = () => {
   // Define your social media URLs here
   const socialMediaLinks = [
-    // { url: 'https://www.facebook.com/example', network: 'facebook' },
     { url: 'https://www.instagram.com/arnabroy__', network: 'instagram' },
     { url: 'https://www.twitter.com/ArnabRoy25', network: 'twitter' },
     // { url: 'https://www.youtube.com/example', network: 'youtube' },
@@ -16,8 +15,8 @@ const Icons = () => {
     // { url: 'https://www.soundcloud.com/example', network: 'soundcloud' },
     // { url: 'https://www.stackoverflow.com/example', network: 'stackoverflow' },
     // { url: 'https://www.vimeo.com/example', network: 'vimeo' },
-    // { url: 'https://www.snapchat.com/example', network: 'snapchat' },
-    // { url: 'https://www.reddit.com/example', network: 'reddit' },
+    // { url: 'https://www.snapchat.com/epic.arnab', network: 'snapchat' },
+    // { url: 'https://www.reddit.com/user/ArnabRoy25', network: 'reddit' },
   ];
 
   return (
